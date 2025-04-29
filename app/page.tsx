@@ -7,13 +7,12 @@ import { scanOnionLink } from "@/lib/actions"
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-b from-black to-gray-900 text-white">
-      {/* Hero Section */}
       <section className="container mx-auto px-4 py-24 md:py-32 flex flex-col items-center text-center space-y-8">
         <div className="inline-block p-2 bg-purple-900/20 rounded-full mb-4">
           <Shield className="w-10 h-10 text-purple-400" />
         </div>
         <h1 className="text-4xl md:text-6xl font-bold tracking-tighter">
-          Onion Link <span className="text-purple-400">Vulnerability</span> Scanner
+          Night-Hawk <span className="text-purple-400">Vulnerability</span> Scanner
         </h1>
         <p className="text-xl text-gray-400 max-w-3xl">
           Analyze onion links for security vulnerabilities, detect RCE defects, URL issues, and more. Educational tool
